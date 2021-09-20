@@ -12,11 +12,11 @@ Use modulo opeerator https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 for (i = 0; i <= 15; i++){
 
-  if ((i % 2) == 0 ){
-    console.log(i + " = Even");
+  if (i % 2 == 0 ){
+    console.log(i, " is Even");
   }
   else {
-    console.log(i + " = Odd")
+    console.log(i, " is Odd")
   }
 }
 
