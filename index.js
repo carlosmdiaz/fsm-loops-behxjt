@@ -10,7 +10,7 @@ HINT:
 Use modulo opeerator https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 */
 
-for (i = 0; i <= 15; i++){
+for (i = 15; i >= 0; i--){
   if (i % 2 == 0 ){
     console.log(i, " is Even");
   }
